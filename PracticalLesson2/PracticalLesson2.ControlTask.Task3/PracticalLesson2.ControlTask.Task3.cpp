@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
@@ -12,17 +11,18 @@ int main()
     cout << "Введите сумму для размена: ";
     cin >> summa;
 
-    while (summa >= 0)
+    while (summa != 0)
     {
-        while ((summa > coin) || (coin >= 1))
+        while (summa >= coin)
         {
             summa -= coin;
             quantity++;
         }
-        cout << "Номиналом " << coin << " - " << quantity << " монет\n";
-        coin = coin / 2;
-        quantity = 0;
-    }
 
+        if (quantity > 0) cout << "Номиналом " << coin << " - " << quantity << " монет\n";
+
+        coin = coin / 2;
+        quantity = 0; 
+    }
     return 0;
 }

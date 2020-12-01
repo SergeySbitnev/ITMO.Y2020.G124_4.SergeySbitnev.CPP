@@ -1,0 +1,3 @@
+﻿  PracticalLesson2.ControlTask.Task4.cpp
+C:\ITMO.Y2020.G124_4.SergeySbitnev.CPP\PracticalLesson2\PracticalLesson2.ControlTask.Task4\PracticalLesson2.ControlTask.Task4.cpp(9,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  PracticalLesson2.ControlTask.Task4.vcxproj -> C:\ITMO.Y2020.G124_4.SergeySbitnev.CPP\PracticalLesson2\Debug\PracticalLesson2.ControlTask.Task4.exe
