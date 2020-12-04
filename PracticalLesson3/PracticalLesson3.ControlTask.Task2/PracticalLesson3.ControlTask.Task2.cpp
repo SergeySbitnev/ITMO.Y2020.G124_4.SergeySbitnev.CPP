@@ -17,12 +17,18 @@ int main()
 
     cout << "Первый вариант: " << pow(a, 1.0 / 3) << endl;
     cout << "Второй вариант: " << CubicRoot(a) << endl;
+
     return 0;
 }
 
-
 double CubicRoot(double a)
 {
-
-    return 0;
+    double start = 0;
+    double finish = a / 3;
+    while (start != finish)
+    {
+        start = finish;
+        finish = (1.0 / 3) * (a / (finish * finish) + 2 * finish);
+    }
+    return start;
 }
