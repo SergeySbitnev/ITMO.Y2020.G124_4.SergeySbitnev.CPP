@@ -1,0 +1,5 @@
+﻿  PracticalLesson5.Task5-2.cpp
+C:\ITMO.Y2020.G124_4.SergeySbitnev.CPP\PracticalLesson5\PracticalLesson5.Task5-2\PracticalLesson5.Task5-2.cpp(9,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\ITMO.Y2020.G124_4.SergeySbitnev.CPP\PracticalLesson5\PracticalLesson5.Task5-2\PracticalLesson5.Task5-2.cpp(47,23): warning C4018: '<': signed/unsigned mismatch
+C:\ITMO.Y2020.G124_4.SergeySbitnev.CPP\PracticalLesson5\PracticalLesson5.Task5-2\PracticalLesson5.Task5-2.cpp(50,23): warning C4018: '<': signed/unsigned mismatch
+  PracticalLesson5.Task5-2.vcxproj -> C:\ITMO.Y2020.G124_4.SergeySbitnev.CPP\PracticalLesson5\Debug\PracticalLesson5.Task5-2.exe
