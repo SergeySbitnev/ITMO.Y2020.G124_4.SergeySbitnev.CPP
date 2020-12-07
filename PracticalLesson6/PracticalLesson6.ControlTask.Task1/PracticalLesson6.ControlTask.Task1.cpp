@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_ALL, "ru");
     system("chcp 1251");
     system("cls");
     char ch;
@@ -24,17 +25,17 @@ int main()
     cout << ch;
     out << ch;*/
 
-    while (ch = cin.get() != EOF)
+    /*while (ch = cin.get() != EOF)
     {
         cout << ch;
         out << ch;
 
-    }
-
+    }*/
+    out << "Привет!";
     out.close();
 
     cout << endl;
-    ifstream in("poem.txt", ios::in);
+    ifstream in("poem.txt", ios::in | ios::binary);
     if (!in)
     {
         cout << "Файл открыть невозможно\n";
