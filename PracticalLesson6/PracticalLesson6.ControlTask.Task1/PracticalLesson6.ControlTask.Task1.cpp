@@ -1,65 +1,37 @@
 #include <iostream>
 #include <fstream>
-#include <string>
-
 using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "ru");
     system("chcp 1251");
     system("cls");
     char ch;
+    cout << "Вводите стихотворение, чтобы закончить ввод перейдите на новую строку и нажмите Ctrl+Z -> Enter. " << endl;
     ofstream out("poem.txt", ios::out | ios::binary);
     if (!out)
     {
         cout << "Файл открыть невозможно\n";
         return 1;
     }
-    
-    /*ch = cin.get();
-    int ich = (int)ch;
-    cout << ich << endl << ch;*/
-
-    /*cin >> ch;
-    cout << ch;
-    out << ch;*/
-
-    /*while (ch = cin.get() != EOF)
+    while (cin.get(ch))
     {
-        cout << ch;
         out << ch;
-
-    }*/
-    out << "Привет!";
+    }
     out.close();
 
-    cout << endl;
+    cout << endl << "Ввод завершен, текст сохранен в файл.\nВывод результата:\n";
     ifstream in("poem.txt", ios::in | ios::binary);
     if (!in)
     {
         cout << "Файл открыть невозможно\n";
         return 1;
     }
-
-    while (ch = in.get() != EOF)
+    while (in.get(ch))
     {
         cout << ch;
     }
-
-    out.close();
-
-
-    /*in.read((char*)&nums, sizeof(nums));
-    int k = sizeof(nums) / sizeof(double);
-    for (int i = 0; i < k; i++)
-    {
-        sum = sum + nums[i];
-        cout << nums[i] << "\t";
-    }
-    cout << "\nsum = " << sum << endl;
-    in.close();*/
-
+    in.close();
     return 0;
 }
 
