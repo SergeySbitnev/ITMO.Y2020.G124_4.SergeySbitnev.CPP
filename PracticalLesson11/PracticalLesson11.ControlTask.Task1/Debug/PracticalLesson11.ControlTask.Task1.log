@@ -1,0 +1,4 @@
+﻿  PracticalLesson11.ControlTask.Task1.cpp
+C:\ITMO.Y2020.G124_4.SergeySbitnev.CPP\PracticalLesson11\PracticalLesson11.ControlTask.Task1\PracticalLesson11.ControlTask.Task1.cpp(73,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\ITMO.Y2020.G124_4.SergeySbitnev.CPP\PracticalLesson11\PracticalLesson11.ControlTask.Task1\PracticalLesson11.ControlTask.Task1.cpp(91,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  PracticalLesson11.ControlTask.Task1.vcxproj -> C:\ITMO.Y2020.G124_4.SergeySbitnev.CPP\PracticalLesson11\Debug\PracticalLesson11.ControlTask.Task1.exe
