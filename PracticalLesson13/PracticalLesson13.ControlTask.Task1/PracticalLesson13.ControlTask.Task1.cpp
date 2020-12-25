@@ -84,11 +84,11 @@ int main()
 	scores.push_back(3);
 	scores.push_back(3);
 
-	student* stud = new student("Петров", "Иван", "Алексеевич", scores);
-	cout << stud->get_info();
+	human* h1 = new student("Петров", "Иван", "Алексеевич", scores);
+	cout << h1->get_info();
 
 	unsigned int teacher_work_time = 40;
-	teacher* tch = new teacher("Сергеев", "Дмитрий", "Сергеевич", teacher_work_time);
-	cout << tch->get_info();
+	human* h2 = new teacher("Сергеев", "Дмитрий", "Сергеевич", teacher_work_time);
+	cout << h2->get_info();
 	return 0;
 }

@@ -1,0 +1,7 @@
+﻿  PracticalLesson14.Task2.cpp
+C:\ITMO.Y2020.G124_4.SergeySbitnev.CPP\PracticalLesson14\PracticalLesson14.Task2\PracticalLesson14.Task2.cpp(72,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  PracticalLesson14.Task2.vcxproj -> C:\ITMO.Y2020.G124_4.SergeySbitnev.CPP\PracticalLesson14\Debug\PracticalLesson14.Task2.exe
