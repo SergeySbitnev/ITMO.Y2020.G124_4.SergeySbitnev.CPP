@@ -21,7 +21,6 @@ void add_valueMap(StudentGrade sg)
     {
         cout << "—тудент с фамилией " << sg.name << " уже существует в контейнере." << endl;
     }
-    
 }
 
 void show_valueMap()
